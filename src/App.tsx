@@ -1,7 +1,6 @@
 import { createContext } from "react";
 import UserProfile from "./props/UserProfile";
 
-// יוצרים Context כאן ונייצא אותו כדי שישתמשו בו בקבצים אחרים
 export const UserContext = createContext<string>("");
 
 export default function App() {
